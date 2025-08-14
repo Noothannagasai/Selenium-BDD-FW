@@ -12,7 +12,7 @@ public class excelConcepts {
         excelWriter();
     }
     public static void excelReader() throws IOException {
-        File file = new File("C:\\Users\\2078007\\OneDrive - Cognizant\\Desktop\\New folder (9)\\Cucumber_Skeleton\\src\\test\\resources\\Properties\\ExcelReader.xlsx");
+        File file = new File("C:\\Users\\mydrive\\Desktop\\New folder (9)\\Cucumber_Skeleton\\src\\test\\resources\\Properties\\ExcelReader.xlsx");
         FileInputStream ip = new FileInputStream(file);
         ArrayList<String> list = new ArrayList<>();
         XSSFWorkbook wb = new XSSFWorkbook(ip);
